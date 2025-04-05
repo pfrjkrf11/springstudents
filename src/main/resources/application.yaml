@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url:  jdbc:postgresql://83.147.246.87:5432/zhuravlev_dops_learningdb2_db
+    username: zhuravlev_dops_learningdb2_user
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
