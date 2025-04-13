@@ -3,7 +3,7 @@ package ru.kors.springstudents.controller;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import ru.kors.springstudents.model.Student;
-import ru.kors.springstudents.sevice.StudentService;
+import ru.kors.springstudents.service.StudentService;
 
 
 import java.util.List;
@@ -16,7 +16,6 @@ public class StudentController {
 
     @GetMapping
     public List<Student> findAllStudents() {
-        //todo
         return studentService.findAllStudents();
     }
 

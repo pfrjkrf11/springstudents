@@ -1,6 +1,5 @@
-package ru.kors.springstudents.sevice;
+package ru.kors.springstudents.service;
 
-import org.springframework.stereotype.Service;
 import ru.kors.springstudents.model.Student;
 
 import java.util.List;

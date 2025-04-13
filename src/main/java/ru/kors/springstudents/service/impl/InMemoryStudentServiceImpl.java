@@ -1,10 +1,10 @@
-package ru.kors.springstudents.sevice.impl;
+package ru.kors.springstudents.service.impl;
 
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import ru.kors.springstudents.model.Student;
 import ru.kors.springstudents.repository.InMemoryStudentDAO;
-import ru.kors.springstudents.sevice.StudentService;
+import ru.kors.springstudents.service.StudentService;
 
 import java.util.List;
 @AllArgsConstructor
